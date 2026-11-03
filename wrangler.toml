@@ -2,3 +2,9 @@ name = "saijai99-line-webhook"
 main = "src/index.js"
 compatibility_date = "2026-11-02"
 workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "saijai99-orders"
+database_id = "4df1f9d1-8dba-4645-a8ad-6d7d32aa3709"
+migrations_dir = "migrations"
